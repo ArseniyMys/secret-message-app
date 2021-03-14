@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <form class="create-form" autocomplete="off">
+      <label class="label">Enter a Secret Message</label>
+      <input id="send-message" class="input" />
+      <button class="button button-create">Create</button>
+    </form>
+
+    <form class="share-form hidden">
+      <p class="label">Share this link with a friend:</p>
+      <input id="link" class="input" />
+    </form>
+
+    <form class="receive-form hidden">
+      <p class="label">Your received message:</p>
+      <input id="receive-message" class="input" />
+      <a href="" class="button-reload">Create your own message</a>
+    </form>
+  </body>
+</html>
